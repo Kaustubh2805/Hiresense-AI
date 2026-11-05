@@ -1,0 +1,98 @@
+services:
+
+  postgres:
+    image: postgres:16
+    container_name: hiresense-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: hiresense
+      POSTGRES_USER: hiresense
+      POSTGRES_PASSWORD: hiresense_dev_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hiresense -d hiresense"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  minio:
+    image: minio/minio:latest
+    container_name: hiresense-minio
+    restart: unless-stopped
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ROOT_USER: hiresense_admin
+      MINIO_ROOT_PASSWORD: hiresense_minio_password
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - minio_data:/data
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: hiresense-ollama
+    restart: unless-stopped
+    ports:
+      - "11434:11434"
+    environment:
+      OLLAMA_KEEP_ALIVE: -1
+      OLLAMA_NUM_PARALLEL: 2
+      OLLAMA_MAX_LOADED_MODELS: 1
+    volumes:
+      - ollama_data:/root/.ollama
+    # For NVIDIA hosts, uncomment and install the NVIDIA Container Toolkit:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: all
+    #           capabilities: [gpu]
+
+      
+  backend:
+    build:
+      context: ./backend
+    container_name: hiresense-backend
+    restart: unless-stopped
+    environment:
+      CORS_ORIGINS: ${CORS_ORIGINS:-}
+      OLLAMA_URL: ${OLLAMA_URL:-http://ollama:11434/api/generate}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-llama3.2:3b}
+      INSIGHT_USE_LLM: ${INSIGHT_USE_LLM:-true}
+      INSIGHT_LLM_TIMEOUT: ${INSIGHT_LLM_TIMEOUT:-90}
+      ENABLE_LLM_GRAMMAR: ${ENABLE_LLM_GRAMMAR:-false}
+      WHISPER_MODEL: ${WHISPER_MODEL:-small.en}
+      WHISPER_MULTILINGUAL: ${WHISPER_MULTILINGUAL:-true}
+      WHISPER_MODEL_MULTILINGUAL: ${WHISPER_MODEL_MULTILINGUAL:-small}
+      WHISPER_LANGUAGE: ${WHISPER_LANGUAGE:-auto}
+      WHISPER_COMPUTE_TYPE: ${WHISPER_COMPUTE_TYPE:-int8}
+      WHISPER_CPU_THREADS: ${WHISPER_CPU_THREADS:-4}
+      WHISPER_SYNC: ${WHISPER_SYNC:-false}
+      WHISPER_WAIT_TIMEOUT_SECONDS: ${WHISPER_WAIT_TIMEOUT_SECONDS:-30}
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:?Set GOOGLE_CLIENT_ID in the project root .env file}
+      JWT_SECRET: ${JWT_SECRET:?Set JWT_SECRET in the project root .env file}
+      JWT_EXPIRE_HOURS: ${JWT_EXPIRE_HOURS:-24}
+    volumes:
+    - ./data:/app/data
+    - ./backend/app:/app/app
+    - whisper_models:/models
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      minio:
+        condition: service_started
+      ollama:
+        condition: service_started
+        
+volumes:
+  postgres_data:
+  minio_data:
+  ollama_data:
+  whisper_models:

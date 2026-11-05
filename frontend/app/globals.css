@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-300: #93c5fd;
+  --color-brand-400: #60a5fa;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-cyan-400: #38bdf8;
+  --color-surface-950: #0a0d14;
+  --color-surface-900: #101522;
+  --color-surface-850: #161c2d;
+  --color-surface-800: #1c2438;
+  --color-line: #222b3e;
+  --color-copy: #f1f5f9;
+  --color-copy-muted: #94a3b8;
+  --color-success: #34d399;
+  --color-warning: #fbbf24;
+  --color-danger: #f87171;
+  --radius-card: 0.5rem;
+  --shadow-subtle: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px -1px rgb(0 0 0 / 0.3);
+}
+
+:root {
+  --background: #0a0d14;
+  --foreground: #f1f5f9;
+  --muted: #94a3b8;
+  --border: #222b3e;
+  --card: #101522;
+  --card-hover: #161c2d;
+  --accent: #2563eb;
+  --accent-hover: #3b82f6;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: rgb(37 99 235 / 40%);
+  color: #ffffff;
+}
+
+:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}
+
+.studio-surface {
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background-color: var(--card);
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #161c2d 25%, #222b3e 50%, #161c2d 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.6s infinite ease-in-out;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+html[data-pdf="true"] {
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --muted: #475569;
+  --border: #cbd5e1;
+  --card: #ffffff;
+  --card-hover: #f8fafc;
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: #0f172a !important;
+  }
+}

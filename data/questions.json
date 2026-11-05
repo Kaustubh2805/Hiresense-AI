@@ -1,0 +1,1802 @@
+[
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What is the difference between client-side rendering and server-side rendering?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What is the purpose of semantic HTML, and why is it important?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What is the difference between CSS Flexbox and CSS Grid, and when would you use each?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What is the DOM, and how does JavaScript interact with it?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What is event delegation in JavaScript, and why can it improve performance?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What is the difference between localStorage, sessionStorage, and cookies?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "How would you optimize a frontend application that takes several seconds to become interactive?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What are responsive web design principles, and how would you make an application work across different screen sizes?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "What is component-based architecture, and what advantages does it provide in frontend development?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Frontend",
+    "question_text": "How would you manage loading, error, and empty states in a frontend application?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "What is the role of a backend server in a web application?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "What is the difference between synchronous and asynchronous programming?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "What is middleware, and where would you use it in a backend application?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "What is dependency injection, and what problem does it solve?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "How would you structure a backend application so that it remains maintainable as the codebase grows?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "What is the difference between monolithic and microservices architectures?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "How would you handle long-running operations in a web backend without blocking normal requests?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "What is caching, and where can caching be implemented in a web application?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "How would you design an API endpoint that needs to return a large amount of data efficiently?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Backend",
+    "question_text": "What are common causes of memory leaks in backend applications, and how would you investigate one?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "What is the difference between a relational database and a NoSQL database?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "What is database normalization, and why is it used?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "What is a primary key, and how is it different from a foreign key?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "What is an index in a database, and how can it improve query performance?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "What are database transactions, and what does ACID mean?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "What is the difference between INNER JOIN, LEFT JOIN, and RIGHT JOIN?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "How would you investigate and optimize a slow SQL query?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Databases",
+    "question_text": "What problems can occur when multiple users modify the same database records concurrently?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "APIs",
+    "question_text": "What is REST, and what are the main principles of a RESTful API?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "APIs",
+    "question_text": "What is the difference between HTTP GET, POST, PUT, PATCH, and DELETE methods?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "APIs",
+    "question_text": "What is the difference between authentication and authorization?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "APIs",
+    "question_text": "How does JWT-based authentication work?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "APIs",
+    "question_text": "What is the purpose of HTTP status codes such as 200, 201, 400, 401, 403, 404, and 500?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "APIs",
+    "question_text": "What is rate limiting, and why should an API implement it?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "APIs",
+    "question_text": "How would you version an API without breaking existing clients?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "JavaScript",
+    "question_text": "What is the difference between var, let, and const in JavaScript?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "JavaScript",
+    "question_text": "What is a closure in JavaScript, and where can it be useful?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "JavaScript",
+    "question_text": "What is the difference between == and === in JavaScript?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "JavaScript",
+    "question_text": "What are promises and async/await, and how do they help with asynchronous operations?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "JavaScript",
+    "question_text": "What is the JavaScript event loop, and how does it handle asynchronous tasks?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "JavaScript",
+    "question_text": "What is immutability, and why is it useful when managing application state?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "JavaScript",
+    "question_text": "What is the difference between shallow copying and deep copying of objects?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Testing",
+    "question_text": "What is the difference between unit testing, integration testing, and end-to-end testing?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Testing",
+    "question_text": "What makes a good unit test?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Testing",
+    "question_text": "What is mocking, and when would you use a mock in a test?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Testing",
+    "question_text": "How would you debug an API that works locally but fails in production?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Testing",
+    "question_text": "How would you investigate a bug that cannot be reproduced consistently?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Git",
+    "question_text": "What is Git, and why is version control important in software development?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Git",
+    "question_text": "What is the difference between git merge and git rebase?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Git",
+    "question_text": "How would you resolve a merge conflict in Git?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Git",
+    "question_text": "What is a pull request, and what should you look for when reviewing one?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Deployment",
+    "question_text": "What is CI/CD, and how does it improve software delivery?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Deployment",
+    "question_text": "What is Docker, and what problem does containerization solve?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Deployment",
+    "question_text": "What is the difference between an environment variable and a configuration file, and how should secrets be handled?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Deployment",
+    "question_text": "How would you design a web application so that it can handle increasing traffic?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Deployment",
+    "question_text": "What is horizontal scaling, and how is it different from vertical scaling?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Security",
+    "question_text": "What is SQL injection, and how can a backend application prevent it?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Security",
+    "question_text": "What is cross-site scripting (XSS), and how can it be prevented?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Security",
+    "question_text": "What is cross-site request forgery (CSRF), and how can applications protect against it?",
+    "is_active": true
+  },
+  {
+    "profile": "Full Stack Developer",
+    "category": "Security",
+    "question_text": "How should passwords be stored securely in a web application?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "What is the difference between WHERE and HAVING clauses in SQL?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you find duplicate records in a SQL table?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you remove duplicate rows while keeping one copy of each record?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "What is the difference between UNION and UNION ALL?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "What is a subquery, and when would you use one?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "What are window functions in SQL, and when are they useful?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you use ROW_NUMBER, RANK, and DENSE_RANK?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you find the second-highest salary from an employee table?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you calculate a running total using SQL?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you identify customers who made purchases in consecutive months?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "What is a Common Table Expression (CTE), and why can it improve query readability?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you calculate the percentage contribution of each product to total sales?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "What is the difference between COUNT(*), COUNT(column), and COUNT(DISTINCT column)?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you find customers who have never placed an order?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you aggregate sales by month from a timestamp column?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "What is a self join, and when would you use it?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you compare this month's sales with the previous month's sales?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "SQL",
+    "question_text": "How would you optimize a SQL query that is taking too long to execute?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "What are the main steps you would follow when cleaning a new dataset?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you handle missing values in a dataset?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you decide whether to remove or retain rows containing missing values?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you detect duplicate records in a dataset?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you identify and handle inconsistent categorical values?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you detect invalid values such as negative age or impossible dates?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "What is an outlier, and how would you determine whether an outlier is an error or a valid observation?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you handle outliers in a business dataset?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you standardize date and time formats from multiple data sources?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "How would you deal with inconsistent spelling or capitalization in text categories?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Data Cleaning",
+    "question_text": "Why is data validation important before performing analysis?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is the difference between mean, median, and mode?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "When would median be a better measure of central tendency than mean?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is variance, and what does it tell you about a dataset?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is standard deviation, and how would you interpret it?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is the difference between correlation and causation?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is a normal distribution, and where might it appear in real-world data?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is a confidence interval, and how should it be interpreted?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is a hypothesis test, and why is it used?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What does a p-value tell you in a hypothesis test?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is statistical significance, and why should it not be confused with business significance?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is sampling bias, and how can it affect an analysis?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is the difference between population and sample?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is the central limit theorem, and why is it useful in data analysis?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is a Type I error and what is a Type II error?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "How would you determine whether two groups have significantly different means?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Statistics",
+    "question_text": "What is regression analysis, and what kinds of questions can it answer?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "Why is Python commonly used for data analysis?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "What is a Pandas DataFrame, and how is it different from a Python list?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "How would you inspect the structure and basic statistics of a new DataFrame?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "How would you filter rows in a Pandas DataFrame based on multiple conditions?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "What is the difference between loc and iloc in Pandas?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "How would you group data in Pandas and calculate aggregate metrics?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "How would you merge two DataFrames in Pandas?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "What is the difference between merge, join, and concat in Pandas?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "How would you handle missing values using Pandas?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Python/Pandas",
+    "question_text": "How would you convert a column to a datetime type in Pandas?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Visualization",
+    "question_text": "What factors would you consider when choosing a chart type for a dataset?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Visualization",
+    "question_text": "When would you use a bar chart instead of a line chart?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Visualization",
+    "question_text": "When is a scatter plot useful in data analysis?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Visualization",
+    "question_text": "How can poor visualization choices lead to misleading conclusions?",
+    "is_active": true
+  },
+  {
+    "profile": "Data Analyst",
+    "category": "Business Analysis",
+    "question_text": "A company's revenue increased but profit decreased. How would you investigate the reason?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is the difference between supervised, unsupervised, and reinforcement learning?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is the difference between classification and regression?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is overfitting, and how can you detect it?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is underfitting, and how can you address it?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is the bias-variance tradeoff?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "Why do we split data into training, validation, and test sets?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is cross-validation, and why is it useful?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is data leakage, and why is it dangerous?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is feature engineering, and why can it improve model performance?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is the difference between a feature and a target variable?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is a baseline model, and why should you establish one?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "How would you decide whether a machine learning problem should be solved with a simple model or a complex model?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is regularization, and how does it help prevent overfitting?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "What is the difference between L1 and L2 regularization?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Machine Learning Fundamentals",
+    "question_text": "Why is reproducibility important in machine learning experiments?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "Why is feature scaling important for some machine learning algorithms?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "What is the difference between normalization and standardization?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "How would you encode categorical variables for a machine learning model?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "How would you handle missing values before training a model?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "When would you use one-hot encoding instead of ordinal encoding?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "How can high-cardinality categorical features create problems for a model?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "How would you handle imbalanced classes in a classification problem?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Preprocessing",
+    "question_text": "Why should preprocessing transformations be fitted only on training data?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "How does linear regression work at a high level?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "How does logistic regression differ from linear regression?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "How does a decision tree make predictions?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "What are the advantages and disadvantages of random forests?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "What is gradient boosting, and how does it differ from bagging?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "What is the basic idea behind support vector machines?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "How does k-nearest neighbors make a prediction?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "What is k-means clustering, and what assumptions does it make?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "How would you choose the number of clusters in k-means?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Algorithms",
+    "question_text": "What is dimensionality reduction, and why might PCA be useful?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is a neural network, and what are its main components?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is an activation function, and why is it needed in a neural network?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is backpropagation?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is the purpose of an optimizer such as Adam?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is a learning rate, and what happens if it is too high or too low?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is a batch size, and how can it affect training?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is dropout, and why is it used?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is the difference between an epoch and an iteration?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Deep Learning",
+    "question_text": "What is transfer learning, and when would you use it?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "What is a confusion matrix?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "What are precision, recall, and F1-score?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "When is recall more important than precision?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "What is ROC-AUC, and what does it measure?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "Why can accuracy be misleading for imbalanced datasets?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "What metrics would you use to evaluate a regression model?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "What is the difference between MAE and RMSE?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "How would you compare two machine learning models fairly?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "What is hyperparameter tuning, and how would you perform it?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "Model Evaluation",
+    "question_text": "What is a validation curve, and what can it tell you about model complexity?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "What is model deployment, and what changes when a model moves from development to production?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "What is model drift, and how can it affect a production system?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "What is data drift, and how would you monitor it?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "What should be logged when running a machine learning model in production?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "How would you version datasets, models, and training configurations?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "What is a model serving API, and why might you use one?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "How would you design a pipeline that retrains a model when new data becomes available?",
+    "is_active": true
+  },
+  {
+    "profile": "ML Engineer",
+    "category": "MLOps",
+    "question_text": "What is the difference between batch inference and real-time inference?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "What is Linux, and why is it widely used for servers?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "What is the difference between a process and a thread?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "How would you inspect CPU and memory usage on a Linux server?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "What are file permissions in Linux, and how do chmod and chown work?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "What is a systemd service, and how would you inspect its status?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "How would you find which process is using a particular port?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "What is SSH, and how is it commonly used in server administration?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Linux",
+    "question_text": "How would you investigate a server that suddenly becomes unresponsive?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is the difference between TCP and UDP?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What happens when you enter a URL into a web browser?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is DNS, and why is it important?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is the difference between a public and private IP address?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is a subnet, and why is subnetting useful?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is a reverse proxy, and why might a production system use one?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is a load balancer, and what problem does it solve?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is the difference between HTTP and HTTPS?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "How would you troubleshoot a service that is reachable locally but not from another machine?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Networking",
+    "question_text": "What is a firewall, and how does it protect infrastructure?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "What problem does Docker solve?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "What is the difference between a Docker image and a container?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "What is a Dockerfile, and what is it used for?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "What is the purpose of Docker volumes?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "How do containers communicate with each other in Docker Compose?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "What is the difference between CMD and ENTRYPOINT in a Dockerfile?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "How would you reduce the size of a Docker image?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "What is a multi-stage Docker build, and why is it useful?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "How would you investigate a container that repeatedly exits?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Docker",
+    "question_text": "Why should application secrets not be hard-coded into a Docker image?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "What is CI/CD, and what problems does it solve?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "What stages would you typically include in a CI/CD pipeline?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "What is the difference between continuous integration and continuous deployment?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "How would you prevent a broken build from being deployed to production?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "What is a deployment artifact?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "What are deployment strategies such as blue-green and canary deployment?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "How would you roll back a deployment safely?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "Why should automated tests run as part of a CI pipeline?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "CI/CD",
+    "question_text": "How would you handle environment-specific configuration in a CI/CD pipeline?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is infrastructure as code, and why is it useful?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is the difference between virtual machines and containers?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is horizontal scaling, and when would you use it?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is autoscaling, and what metrics could trigger it?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is a cloud availability zone?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is high availability, and how would you design for it?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is fault tolerance, and how is it different from high availability?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "How would you design a production application to survive the failure of one server?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Monitoring",
+    "question_text": "What is the difference between logs, metrics, and traces?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Monitoring",
+    "question_text": "What metrics would you monitor for a web application?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Monitoring",
+    "question_text": "What is an alert, and what makes an alert useful rather than noisy?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Monitoring",
+    "question_text": "How would you investigate a sudden increase in application latency?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Monitoring",
+    "question_text": "What is a health check, and why should production services expose one?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Monitoring",
+    "question_text": "What is observability, and how is it different from basic monitoring?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Security",
+    "question_text": "What is the principle of least privilege?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Security",
+    "question_text": "How should secrets such as API keys and database passwords be managed in production?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Security",
+    "question_text": "What is IAM, and why is it important in cloud environments?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Security",
+    "question_text": "How would you secure a server exposed to the public internet?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Incident Response",
+    "question_text": "A production deployment causes a major outage. What would you do first?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Incident Response",
+    "question_text": "How would you investigate repeated application crashes in production?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Incident Response",
+    "question_text": "What information should be included in a post-incident review?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Incident Response",
+    "question_text": "How would you design backups so that a database can be recovered after a major failure?",
+    "is_active": true
+  },
+  {
+    "profile": "DevOps Engineer",
+    "category": "Cloud & Infrastructure",
+    "question_text": "What is a reverse proxy and how can it be used with multiple application instances?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "What is user-centered design?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "What is the difference between qualitative and quantitative user research?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "What is a user persona, and how is it useful?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "What is a user journey map?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "How would you conduct a user interview for a new product idea?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "How would you avoid leading questions during user research?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "What is usability testing, and when should it be conducted?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "How would you identify the most important pain points from user research?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "What is contextual inquiry, and when would you use it?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "How would you validate a design assumption before investing heavily in development?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "How would you handle conflicting feedback from different users?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "What is an empathy map, and what information does it capture?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Information Architecture",
+    "question_text": "What is information architecture in UX design?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Information Architecture",
+    "question_text": "What is the difference between navigation and information architecture?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Information Architecture",
+    "question_text": "What is a sitemap, and why is it useful?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Information Architecture",
+    "question_text": "What is card sorting, and what problem does it help solve?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Information Architecture",
+    "question_text": "How would you organize a complex application with many features?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Information Architecture",
+    "question_text": "What is a breadcrumb, and when is it useful?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "What is interaction design?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "What is a user flow, and how would you create one?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "What is the difference between a user flow and a wireframe?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "What is affordance in interface design?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "What is feedback in an interface, and why is it important?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "How should loading states be designed to reduce user frustration?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "How would you design an error state for a form submission?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "What is progressive disclosure, and when would you use it?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "What is the difference between a modal and a dedicated page?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Interaction Design",
+    "question_text": "How would you design a confirmation flow for a destructive action?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "What is visual hierarchy, and how can it guide a user's attention?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "How do typography choices affect usability?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "What is the role of whitespace in interface design?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "How would you choose a color palette for a digital product?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "Why should color not be the only way to communicate information?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "What is contrast, and why is it important for accessibility?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "How would you create consistency across screens in a product?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Visual Design",
+    "question_text": "What is a design token, and why is it useful in a design system?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Design Systems",
+    "question_text": "What is a design system?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Design Systems",
+    "question_text": "What is the difference between a component library and a design system?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Design Systems",
+    "question_text": "How would you decide which components belong in a design system?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Design Systems",
+    "question_text": "How can a design system improve collaboration between designers and developers?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Design Systems",
+    "question_text": "What are design patterns, and why are they useful?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Accessibility",
+    "question_text": "What is accessibility in digital product design?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Accessibility",
+    "question_text": "What is WCAG, and why should designers be familiar with it?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Accessibility",
+    "question_text": "How would you design a form that is accessible to keyboard users?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Accessibility",
+    "question_text": "How should error messages be designed for users with accessibility needs?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Accessibility",
+    "question_text": "Why is sufficient color contrast important?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Usability",
+    "question_text": "What are Nielsen's usability heuristics, and how can they be applied during design reviews?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Usability",
+    "question_text": "What is the difference between usability and user experience?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Usability",
+    "question_text": "How would you measure whether a redesign improved usability?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Usability",
+    "question_text": "What is a usability problem you might discover through testing but miss during a design review?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "How would you prioritize UX improvements when there are more problems than development capacity?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "How would you balance user needs with business requirements?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "A product has many features but users struggle to complete its main task. How would you approach the redesign?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "How would you decide whether a new feature actually needs to be added?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "How would you work with a developer when a proposed design is technically difficult to implement?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "How would you defend a design decision when a stakeholder disagrees with it?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "What metrics could indicate that a UX change improved a product?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "How would you redesign a checkout flow with a high abandonment rate?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "Product Thinking",
+    "question_text": "How would you improve the onboarding experience for a complex application?",
+    "is_active": true
+  },
+  {
+    "profile": "UI/UX Designer",
+    "category": "UX Research",
+    "question_text": "How would you combine analytics data with user interviews to understand a UX problem?",
+    "is_active": true
+  }
+]

@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" modified="2026-11-03T09:55:00.000Z" agent="Copilot" version="24.7.17" type="device">
+  <diagram id="hiresense-system-architecture" name="System Architecture">
+    <mxGraphModel dx="2400" dy="1400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2400" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="HireSense AI | System Architecture" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=28;fontStyle=1;fontColor=#172033;" vertex="1" parent="1">
+          <mxGeometry x="72" y="24" width="1250" height="42" as="geometry"/>
+        </mxCell>
+        <mxCell id="subtitle" value="Source-aligned architecture | Next.js client | FastAPI application | Docker Compose services: PostgreSQL, MinIO, Ollama" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#526174;" vertex="1" parent="1">
+          <mxGeometry x="74" y="68" width="1800" height="26" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="layer1" value="LAYER 1  |  CLIENT / PRESENTATION" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8292A7;strokeWidth=1.5;dashed=1;dashPattern=8 5;align=left;verticalAlign=top;spacingLeft=18;spacingTop=10;fontFamily=Helvetica;fontSize=17;fontStyle=1;fontColor=#243247;" vertex="1" parent="1">
+          <mxGeometry x="55" y="112" width="1980" height="218" as="geometry"/>
+        </mxCell>
+        <mxCell id="layer2" value="LAYER 2  |  BACKEND / APPLICATION SERVICES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8292A7;strokeWidth=1.5;dashed=1;dashPattern=8 5;align=left;verticalAlign=top;spacingLeft=18;spacingTop=10;fontFamily=Helvetica;fontSize=17;fontStyle=1;fontColor=#243247;" vertex="1" parent="1">
+          <mxGeometry x="55" y="348" width="1980" height="267" as="geometry"/>
+        </mxCell>
+        <mxCell id="layer3" value="LAYER 3  |  AI / ML / PROCESSING ENGINES" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8292A7;strokeWidth=1.5;dashed=1;dashPattern=8 5;align=left;verticalAlign=top;spacingLeft=18;spacingTop=10;fontFamily=Helvetica;fontSize=17;fontStyle=1;fontColor=#243247;" vertex="1" parent="1">
+          <mxGeometry x="55" y="633" width="1980" height="363" as="geometry"/>
+        </mxCell>
+        <mxCell id="layer4" value="LAYER 4  |  DATABASE / STORAGE / OUTPUT" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#8292A7;strokeWidth=1.5;dashed=1;dashPattern=8 5;align=left;verticalAlign=top;spacingLeft=18;spacingTop=10;fontFamily=Helvetica;fontSize=17;fontStyle=1;fontColor=#243247;" vertex="1" parent="1">
+          <mxGeometry x="55" y="1014" width="1980" height="306" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ui" value="&lt;b&gt;Next.js 16 / React 19 client&lt;/b&gt;&lt;br&gt;&lt;br&gt;Dashboard, role selection, resume/profile forms&lt;br&gt;Interview flow, history, results and charts&lt;br&gt;Sends REST requests; renders evaluations and reports" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#6D91C7;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1E3556;" vertex="1" parent="1">
+          <mxGeometry x="90" y="164" width="500" height="139" as="geometry"/>
+        </mxCell>
+        <mxCell id="media" value="&lt;b&gt;Browser interview media&lt;/b&gt;&lt;br&gt;&lt;br&gt;getUserMedia + MediaRecorder&lt;br&gt;Captures camera/microphone video&lt;br&gt;Browser Web Speech API transcript (when available)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#6D91C7;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1E3556;" vertex="1" parent="1">
+          <mxGeometry x="615" y="164" width="420" height="139" as="geometry"/>
+        </mxCell>
+        <mxCell id="browserauth" value="&lt;b&gt;Browser sign-in / API session&lt;/b&gt;&lt;br&gt;&lt;br&gt;Google OAuth UI&lt;br&gt;Stores returned JWT in localStorage&lt;br&gt;Bearer token added by apiFetch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#6D91C7;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1E3556;" vertex="1" parent="1">
+          <mxGeometry x="1485" y="164" width="400" height="139" as="geometry"/>
+        </mxCell>
+        <mxCell id="clientoutputs" value="&lt;b&gt;User interactions &amp;amp; outputs&lt;/b&gt;&lt;br&gt;&lt;br&gt;Resume upload and skill edits&lt;br&gt;Interview responses and progress&lt;br&gt;History, scorecards, insights and report view" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#6D91C7;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1E3556;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="164" width="400" height="139" as="geometry"/>
+        </mxCell>
+        <mxCell id="google" value="&lt;b&gt;Google Identity&lt;/b&gt;&lt;br&gt;External OAuth provider&lt;br&gt;Google ID credential" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F6F8;strokeColor=#8793A2;strokeWidth=1.5;dashed=1;align=center;verticalAlign=middle;spacing=10;fontFamily=Helvetica;fontSize=14;fontColor=#344154;" vertex="1" parent="1">
+          <mxGeometry x="2115" y="170" width="230" height="125" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="api" value="&lt;b&gt;FastAPI REST API&lt;/b&gt;&lt;br&gt;&lt;br&gt;Auth, account/profile, job profiles&lt;br&gt;Interview, analysis and report endpoints&lt;br&gt;Pydantic request/response schemas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EDFA;strokeColor=#927EB8;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#382E52;" vertex="1" parent="1">
+          <mxGeometry x="85" y="405" width="350" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="auth" value="&lt;b&gt;Authentication &amp;amp; ownership&lt;/b&gt;&lt;br&gt;&lt;br&gt;Google credential verification&lt;br&gt;Issues / validates HS256 JWTs&lt;br&gt;Per-user interview access checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EDFA;strokeColor=#927EB8;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#382E52;" vertex="1" parent="1">
+          <mxGeometry x="465" y="405" width="340" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="interview" value="&lt;b&gt;Interview service + adaptive agent&lt;/b&gt;&lt;br&gt;&lt;br&gt;Creates sessions and selects bank questions&lt;br&gt;Evaluates answers; controls follow-up / next question&lt;br&gt;InterviewAgent uses score, history and question budget" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EDFA;strokeColor=#927EB8;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#382E52;" vertex="1" parent="1">
+          <mxGeometry x="835" y="405" width="390" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="profile" value="&lt;b&gt;Profile &amp;amp; resume services&lt;/b&gt;&lt;br&gt;&lt;br&gt;pypdf / python-docx extraction; skill taxonomy&lt;br&gt;Deterministic role matching / recommendations&lt;br&gt;Persists parsed profile and skills" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EDFA;strokeColor=#927EB8;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#382E52;" vertex="1" parent="1">
+          <mxGeometry x="1255" y="405" width="350" height="175" as="geometry"/>
+        </mxCell>
+        <mxCell id="orchestrator" value="&lt;b&gt;Background processing&lt;/b&gt;&lt;br&gt;&lt;br&gt;Transcription worker queue&lt;br&gt;Post-interview analysis orchestration&lt;br&gt;Runs audio/NLP/video evaluation and insight stages" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EDFA;strokeColor=#927EB8;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#382E52;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="405" width="350" height="175" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="ollama" value="&lt;b&gt;Ollama local LLM&lt;/b&gt;&lt;br&gt;&lt;br&gt;Configured model (default: llama3.2:3b)&lt;br&gt;Answer evaluation &amp;amp; follow-up generation&lt;br&gt;Resume structured parsing, optional grammar&lt;br&gt;Insight narrative generation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F5F2;strokeColor=#5C9B89;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1D493F;" vertex="1" parent="1">
+          <mxGeometry x="80" y="699" width="300" height="253" as="geometry"/>
+        </mxCell>
+        <mxCell id="whisper" value="&lt;b&gt;Speech transcription&lt;/b&gt;&lt;br&gt;&lt;br&gt;faster-whisper small.en (CPU)&lt;br&gt;Video audio extracted to mono 16 kHz&lt;br&gt;Produces transcript and confidence&lt;br&gt;Browser transcript remains a fallback" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F5F2;strokeColor=#5C9B89;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1D493F;" vertex="1" parent="1">
+          <mxGeometry x="405" y="699" width="300" height="253" as="geometry"/>
+        </mxCell>
+        <mxCell id="nlp" value="&lt;b&gt;NLP evaluation&lt;/b&gt;&lt;br&gt;&lt;br&gt;Transcript quality and feature extraction&lt;br&gt;Deterministic language scoring&lt;br&gt;Grammar enhancement via Ollama&lt;br&gt;Produces NLP evaluation metrics" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F5F2;strokeColor=#5C9B89;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1D493F;" vertex="1" parent="1">
+          <mxGeometry x="730" y="699" width="300" height="253" as="geometry"/>
+        </mxCell>
+        <mxCell id="audio" value="&lt;b&gt;Audio delivery analysis&lt;/b&gt;&lt;br&gt;&lt;br&gt;FFmpeg audio extraction&lt;br&gt;librosa / NumPy / SoundFile features&lt;br&gt;Pace, fluency, pauses, fillers, hesitation&lt;br&gt;Deterministic audio scores" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F5F2;strokeColor=#5C9B89;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1D493F;" vertex="1" parent="1">
+          <mxGeometry x="1055" y="699" width="300" height="253" as="geometry"/>
+        </mxCell>
+        <mxCell id="video" value="&lt;b&gt;Video / visual analysis&lt;/b&gt;&lt;br&gt;&lt;br&gt;FFmpeg decode + OpenCV sampling&lt;br&gt;MediaPipe face / pose landmarks&lt;br&gt;Eye contact, expression, posture, gestures&lt;br&gt;Sampled and scored visual features" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F5F2;strokeColor=#5C9B89;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1D493F;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="699" width="300" height="253" as="geometry"/>
+        </mxCell>
+        <mxCell id="insight" value="&lt;b&gt;InsightAgent&lt;/b&gt;&lt;br&gt;&lt;br&gt;Combines answer, NLP, audio and video scores&lt;br&gt;Weighted domain/factor benchmarks&lt;br&gt;LLM-backed explanations and recommendations&lt;br&gt;Falls back to deterministic templates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E7F5F2;strokeColor=#5C9B89;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#1D493F;" vertex="1" parent="1">
+          <mxGeometry x="1705" y="699" width="300" height="253" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="postgres" value="&lt;b&gt;PostgreSQL 16&lt;/b&gt;&lt;br&gt;&lt;br&gt;users, profiles, job_profiles, question_bank&lt;br&gt;interview_sessions, session_questions&lt;br&gt;answer / audio / NLP / video evaluations&lt;br&gt;interview_insights + interview_reports&lt;br&gt;Report JSON and pdf_data payload field" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E4;strokeColor=#C0914D;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#59401E;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1073" width="1000" height="211" as="geometry"/>
+        </mxCell>
+        <mxCell id="minio" value="&lt;b&gt;MinIO (S3-compatible object storage)&lt;/b&gt;&lt;br&gt;&lt;br&gt;Interview video recordings (WebM / MP4)&lt;br&gt;Uploaded PDF / DOCX resume objects&lt;br&gt;Backend downloads objects for transcription and analysis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E4;strokeColor=#C0914D;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#59401E;" vertex="1" parent="1">
+          <mxGeometry x="1505" y="1073" width="500" height="211" as="geometry"/>
+        </mxCell>
+        <mxCell id="seeddata" value="&lt;b&gt;Seed / model files&lt;/b&gt;&lt;br&gt;&lt;br&gt;data/questions.json seeds question bank&lt;br&gt;Whisper model cache in named volume&lt;br&gt;Compose volumes persist service data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF4E4;strokeColor=#C0914D;strokeWidth=1.5;align=center;verticalAlign=middle;spacing=12;fontFamily=Helvetica;fontSize=14;fontColor=#59401E;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="1073" width="380" height="211" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-ui-api" value="REST requests + recording uploads" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6F9F;strokeWidth=1.8;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#344154;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="ui" target="api">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-api-ui" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6F9F;strokeWidth=1.8;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#344154;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="api" target="clientoutputs">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-media-api" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#4E6F9F;strokeWidth=1.8;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#344154;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="media" target="ui">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-google-browser" value="ID credential" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#78889B;strokeWidth=1.5;dashed=1;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#526174;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="google" target="browserauth">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-auth-google" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#78889B;strokeWidth=1.5;dashed=1;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#526174;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="auth" target="google">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-api-auth" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#76659A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#483C61;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="api" target="auth">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-api-interview" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#76659A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#483C61;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="api" target="interview">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-api-profile" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#76659A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#483C61;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="api" target="profile">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-interview-orchestrator" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#76659A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#483C61;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="interview" target="orchestrator">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-interview-llm" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="interview" target="ollama">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-profile-llm" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="profile" target="ollama">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-orchestrator-whisper" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="orchestrator" target="whisper">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-orchestrator-nlp" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="orchestrator" target="nlp">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-orchestrator-audio" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="orchestrator" target="audio">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-orchestrator-video" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="orchestrator" target="video">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-orchestrator-insight" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="orchestrator" target="insight">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-insight-llm" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#47887A;strokeWidth=1.5;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#28594E;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="insight" target="ollama">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="e-api-db" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B17F3C;strokeWidth=1.6;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#6B4C24;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="api" target="postgres">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-insight-db" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B17F3C;strokeWidth=1.4;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#6B4C24;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="insight" target="postgres">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-api-minio" value="S3 uploads / downloads" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B17F3C;strokeWidth=1.5;startArrow=block;startFill=1;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#6B4C24;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="api" target="minio">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e-seed-db" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#B17F3C;strokeWidth=1.5;dashed=1;endArrow=block;endFill=1;fontFamily=Helvetica;fontSize=12;fontColor=#6B4C24;labelBackgroundColor=#FFFFFF;" edge="1" parent="1" source="seeddata" target="postgres">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="note" value="Data flow: sign in &gt; select / prepare role &gt; interview questions and recorded answers &gt; transcription + answer/audio/NLP/video scoring &gt; persisted evaluations and insight report &gt; results/history returned to the client. The frontend is a separate client app; it is not a service in docker-compose.yml." style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=none;strokeColor=none;fontFamily=Helvetica;fontSize=13;fontColor=#526174;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1340" width="2250" height="34" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
